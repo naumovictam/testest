@@ -7,6 +7,31 @@
     <title>Document</title>
 </head>
 <body>
+    <p>
+        ssh-keygen -t rsa -C "your_email@youremail.com"
+ssh-keygen -t ed25519 -C "your_email@youremail.com"
+
+u podesavanjima za pathfajl uneti C:\Users\student2\.ssh\[studentski_kljuc]
+[studentski_kljuc] zameniti sa userom student npr pp20210015 (Petar Peric godina 2021 indels 0015)
+zatim uneti sifru
+ponoviti sifru
+i dobice se izgenerisan kljuc
+kljuc se moze naci u folderu C:\Users\student2\.ssh
+otvoriti [studentski_kljuc].pub fajl u okviru notepad-a ili vscode-a i kopirati kljuc
+
+kopirani kljuc dodati na Github profil>
+Profil>Settings>SSH and GPC keys> New SSH key
+dati naziv kljuca> iteh-vezbe (na primer)
+kopirati kljuc u polje
+ostaviti Authenticate
+
+dodati kljuc u ssh-agent sledecom komandom
+
+ssh-add C:\\Users\\student2\\.ssh\\[studentski_kljuc]
+
+Sve git komande raditi kroz git bash prozor, ne u VSCode-u
+
+    </p>
     
 </body>
 </html>
